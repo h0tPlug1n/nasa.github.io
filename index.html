@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - Unofficial Website</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;  
+    }
+    body{
+        background-image: url("bg.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+    }
+    h1{
+        position: absolute;
+        top:40%;
+        left:35%;
+        color: white;
+        font-size:100px;
+        letter-spacing: 50px;
+        font-family: 'Goldman', cursive;
+    }
+    img{
+        height: 100px;
+        width: 200px;
+        margin-top: 10px;
+    }
+    p{
+        color: white;
+        position: absolute;
+        font-size: 35px;
+        letter-spacing: 3px;
+        top: 58%;
+        left:24%;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    navbar{
+        position: absolute;
+        top: 6%;
+        right: 2%;       
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+    }
+    ul li{
+        color: white;
+        font-size: 15px;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+</style>
+<body>
+    <img src="logo.png">
+    <navbar>
+        <ul>
+            <li>Home</li>
+            <li>About NASA</li>
+            <li>Blog</li>
+            <li>Merch</li>
+        </ul>
+    </navbar>
+    <h1>NASA</h1>
+    <p>National Aeronautics and Space Administration</p>
+</body>
+</html>
